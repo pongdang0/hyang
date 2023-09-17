@@ -36,8 +36,19 @@ body{
         position: absolute;
         top: 7150px;
         left: 380px;
+    } 
+}
+@media screen and (max-width: 1200px) {
+    .banner img{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 4590px;
+        left: 300px;
     }
-    
 }
 @media screen and (max-width: 1080px) {
     .banner img{
@@ -50,7 +61,18 @@ body{
         top: 4090px;
         left: 260px;
     }
-    
+}
+@media screen and (max-width: 800px) {
+    .banner img{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 2990px;
+        left: 190px;
+    }  
 }
 @media screen and (max-width: 500px) {
     .banner img{
@@ -63,5 +85,4 @@ body{
         top: 1890px;
         left: 120px;
     }
-    
 }
