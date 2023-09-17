@@ -1,11 +1,67 @@
 html{
-overflow-x: hidden;
+    overflow-x: hidden;
 }
-.banner{
-    position: relative;
-    top: 7350px;
-    left: 270px;
+body{
+    margin: 0;
+}
+.banner img{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    position: absolute;
+    top: 7255px;
+    left: 280px;
 }
 .main{
-    margin: -1000px 0 0 -10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+} 
+.main img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+@media screen and (max-width: 1890px) {
+    .banner img{
+        width: 60%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 7150px;
+        left: 380px;
+    }
+    
+}
+@media screen and (max-width: 1080px) {
+    .banner img{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 4090px;
+        left: 260px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .banner img{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 1890px;
+        left: 120px;
+    }
+    
 }
