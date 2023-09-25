@@ -52,14 +52,26 @@ body{
 }
 @media screen and (max-width: 1080px) {
     .banner img{
-        width: 50%;
+        width: 60%;
         height: auto;
         text-align: center;
         overflow: hidden;
         background-size: cover;
         position: absolute;
         top: 4090px;
-        left: 260px;
+        left: 200px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner img{
+        width: 60%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        background-size: cover;
+        position: absolute;
+        top: 3900px;
+        left: 200px;
     }
 }
 @media screen and (max-width: 800px) {
