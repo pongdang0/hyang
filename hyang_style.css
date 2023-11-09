@@ -5,14 +5,14 @@ body{
     margin: 0;
 }
 .banner img{
-    width: 70%;
+    width: 85%;
     height: auto;
     text-align: center;
     overflow: hidden;
     background-size: cover;
     position: absolute;
-    top: 7255px;
-    left: 280px;
+    top: 8540px;
+    left: 200px;
 }
 .main{
     width: 100%;
