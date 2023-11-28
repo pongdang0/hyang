@@ -4,15 +4,20 @@ html{
 body{
     margin: 0;
 }
+.banner {
+    margin: -10px 0 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
 .banner img{
-    width: 85%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     overflow: hidden;
     background-size: cover;
-    position: absolute;
-    top: 8540px;
-    left: 200px;
+
 }
 .main{
     width: 100%;
@@ -26,75 +31,17 @@ body{
     text-align: center;
     overflow: hidden;
 }
-@media screen and (max-width: 1890px) {
-    .banner img{
-        width: 60%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 7150px;
-        left: 380px;
-    } 
+.web3{
+    margin: -10px 0 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
 }
-@media screen and (max-width: 1200px) {
-    .banner img{
-        width: 50%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 4590px;
-        left: 300px;
-    }
-}
-@media screen and (max-width: 1080px) {
-    .banner img{
-        width: 60%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 4090px;
-        left: 200px;
-    }
-}
-@media screen and (max-width: 1030px) {
-    .banner img{
-        width: 60%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 3900px;
-        left: 200px;
-    }
-}
-@media screen and (max-width: 800px) {
-    .banner img{
-        width: 50%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 2990px;
-        left: 190px;
-    }  
-}
-@media screen and (max-width: 500px) {
-    .banner img{
-        width: 50%;
-        height: auto;
-        text-align: center;
-        overflow: hidden;
-        background-size: cover;
-        position: absolute;
-        top: 1890px;
-        left: 120px;
-    }
+.web3 img{
+    margin: -10px 0 -10px 0;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
 }
